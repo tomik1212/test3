@@ -5,6 +5,7 @@ rvm: # the Ruby versions to be used
   - 3.4.0
 jdk:
   - oraclejdk8
+  
 before_install:
   - sudo apt-get install ruby
   - gem install selenium-webdriver
